@@ -1,3 +1,3 @@
 # PythonPractice
-Gets Nth term in fibonacci series.
+Miscellaneous Python codes
 
