@@ -1,0 +1,19 @@
+def get_triangle_angles(nums_tuple):
+    total = sum(nums_tuple)
+    angles_list = []
+    for i in range(3):
+        angle = round((nums_tuple[i]/total)*180,2)
+        angles_list.append(angle)
+    print(angles_list)
+    
+get_triangle_angles((10,20,50))  
+        
+
+
+
+
+
+
+
+    
+    
