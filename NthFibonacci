@@ -1,0 +1,9 @@
+def fibonacci(num, i, sequence):
+    if i == num:
+        return sequence
+    else:
+        new_num = sequence[-1] + sequence[-2]
+        sequence.append(new_num)
+        return fibonacci(num, i + 1, sequence)
+
+print(fibonacci(8, 2, [0, 1]))
